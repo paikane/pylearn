@@ -41,7 +41,27 @@ This is a complete course sales website with cms, which was developed with the b
 <details>
   <summary>Index page</summary>
   
-  [index page on google drive](https://drive.google.com/file/d/17DsVzPqNN_P1SZKdOkLp4-2tA5d7pO4j/view?usp=sharing)
+  [index page on google drive](https://drive.google.com/file/d/13TIt7h6DWfaNWh4Si1FyHraJOXIaqT7j/view?usp=sharing)
+</details>
+<details>
+  <summary>Login page</summary>
+  
+  [Login page on google drive](https://drive.google.com/file/d/1yuz6Jt7wZXqwzRPcwDVzu7e5nm3St2ZC/view?usp=sharing)
+</details>
+<details>
+  <summary>Category page</summary>
+  
+  [Category page on google drive](https://drive.google.com/file/d/1F8MRpCc5tIhMVyUve7AEByaNiry6Yzyg/view?usp=sharing)
+</details>
+<details>
+  <summary>Course detail page</summary>
+  
+  [Course detail page on google drive](https://drive.google.com/file/d/17DsVzPqNN_P1SZKdOkLp4-2tA5d7pO4j/view?usp=sharing)
+</details>
+<details>
+  <summary>CMS page</summary>
+  
+  [CMS page on google drive](https://drive.google.com/file/d/1dAcyjIT_Rv0tWcLGKnmf-LHC0hO41FOg/view?usp=sharing)
 </details>
 
 <br/>
