@@ -1,54 +1,55 @@
-# - pylearn
+# • pyLearn
+This is a web application responsive project has been developed with Html && Css && pure JavaScript and some useful libraries.
 <br/>
 <br/>
 
 
 ## Description
-This todo list is my practice project developed with html, css and js. Of course, this todo list has a feature that saves the data in localstorage and the data is not deleted after reloading and exiting the page
+This is a complete course sales website with cms, which was developed with the backend, but because the backend code was developed by someone else, I was not allowed to use it, so I will show you videos of the site in the demo section.
 <br/>
 
 ## Built With
 - HTML
 - CSS
 - js
+- bootstrap
+- SweetAlert2
+- Swiper
 
 ### Features 
 
-- store data in localstorage
+- User/Admin Registration and Login
+- Adding Courses
+- Adding Sessions to a Course
+- Adding Blog Posts
+- Adding/Edit/Remove/Ban Users from Admin Panel
+- Creating Menu Items and Submenus
+- Creating Categories
+- Comment Submission with Pending Approval by Admin Admin
+- Response to Comments
+- Adding Discount Codes for a Course
+- Sending Messages to Admin via Contact Form
+- Admin Responding to User Messages via Email
+- Editing User Profiles
+- Displaying Purchased Courses in User Panel
+- Registering in Courses
 
 
 
-## Live Demo
+## demo videos
 
-[GitHub pages deployment](https://paikane.github.io/todo-list/)
-
-<br/>
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-- A functional computer with VS Code or any functional coding software.
-- Git bash or any version control software.
-
-### Setup 
-![video file](https://drive.google.com/file/d/17DsVzPqNN_P1SZKdOkLp4-2tA5d7pO4j/view?usp=sharing)
-- Copy the repo link and clone it in your local machine
-- You can execute the following command in your git bash:
-```bash
-  git clone https://paikane.github.io/todo-list/.git
-```
-### Usage
-
-- Open the `index` file with your browser to see the webpage.
-- You can also open the [GitHub pages deployment](https://paikane.github.io/todo-list/) to see a live version of the webpage.
+<details>
+  <summary>Index page</summary>
+  
+  [index page on google drive](https://drive.google.com/file/d/17DsVzPqNN_P1SZKdOkLp4-2tA5d7pO4j/view?usp=sharing)
+</details>
 
 <br/>
 
+## demo videos
+[GitHub pages deployment](https://paikane.github.io/pylearn/)
 
+<br/>
 ## Show your support
 
 Give a ⭐️ if you like this project!
