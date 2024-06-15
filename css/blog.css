@@ -1,11 +1,11 @@
-@import url(/frontend/css/fonts.css);
-@import url(/frontend/css/variables.css);
-@import url(/frontend/css/header.css);
-@import url(/frontend/css/footer.css);
-@import url(/frontend/css/deault.css);
-@import url(/frontend/css/helpers.css);
-@import url(/frontend/css/breadcrumb.css);
-@import url(/frontend/css/sidebarCoursesBox.css);
+@import url(css/fonts.css);
+@import url(css/variables.css);
+@import url(css/header.css);
+@import url(css/footer.css);
+@import url(css/deault.css);
+@import url(css/helpers.css);
+@import url(css/breadcrumb.css);
+@import url(css/sidebarCoursesBox.css);
 
 /* Start Article Details Styles */
 

@@ -1,15 +1,15 @@
-@import url(/frontend/css/fonts.css);
-@import url(/frontend/css/variables.css);
-@import url(/frontend/css/top-bar.css);
-@import url(/frontend/css/header.css);
-@import url(/frontend/css/landing.css);
-@import url(/frontend/css/courses-wrapper.css);
-@import url(/frontend/css/aboutus.css);
-@import url(/frontend/css/popular.css);
-@import url(/frontend/css/presell.css);
-@import url(/frontend/css/footer.css);
-@import url(/frontend/css/deault.css);
-@import url(/frontend/css/helpers.css);
+@import url(fonts.css);
+@import url(variables.css);
+@import url(top-bar.css);
+@import url(header.css);
+@import url(landing.css);
+@import url(courses-wrapper.css);
+@import url(aboutus.css);
+@import url(popular.css);
+@import url(presell.css);
+@import url(footer.css);
+@import url(deault.css);
+@import url(helpers.css);
 
 
 

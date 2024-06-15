@@ -1,6 +1,6 @@
-@import url(/frontend/css/fonts.css);
-@import url(/frontend/css/variables.css);
-@import url(/frontend/css/deault.css);
+@import url(css/fonts.css);
+@import url(css/variables.css);
+@import url(css/deault.css);
 
 .login-register {
   height: 100vh;
