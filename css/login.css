@@ -1,0 +1,198 @@
+@import url(/frontend/css/fonts.css);
+@import url(/frontend/css/variables.css);
+@import url(/frontend/css/deault.css);
+
+.login-register {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.login {
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  padding: 2.5rem 2rem 5rem 2rem;
+  box-shadow: 0px 5px 10px 2px rgba(168, 172, 185, 0.2);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  width: 50rem;
+  border-bottom: 5px solid var(--secondary-color);
+}
+.login-title {
+  color: var(--dark-color);
+  font-size: 2.2rem;
+  display: block;
+}
+.login-subtitle {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  display: block;
+}
+.login__new-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  border: 2px solid var(--primary-color);
+  padding: 1rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.login__new-member-text {
+  font-size: 1.6rem;
+  color: var(--dark-color);
+}
+.login__new-member-link {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.login__new-member-link:hover {
+  color: var(--white-color);
+  background-color: #0e4695;
+}
+.login-form {
+  width: 100%;
+}
+.login-form__username,
+.login-form__password {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;  */
+}
+.login-form__username-input,
+.login-form__password-input {
+  width: 80%;
+  outline: none;
+  border: 1.5px solid var(--primary-color);
+  padding: 1rem 1.2rem;
+  margin: 0.8rem 0;
+  font-size: 1.4rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.login-form__username-input::placeholder,
+.login-form__password-input::placeholder {
+  font-size: 1.3rem;
+}
+.login-form__username-icon,
+.login-form__password-icon {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  color: var(--primary-color);
+}
+.login-form__btn {
+  border: none;
+  width: 70%;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 1.6rem 6.8rem 0 0;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transition: 500ms ease;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -ms-transition: 500ms ease;
+  -o-transition: 500ms ease;
+}
+.login-form__btn:hover {
+  background-color: #0e4695;
+}
+.login-form__btn-icon {
+  position: absolute;
+  right: 1rem;
+  font-size: 1.8rem;
+}
+.login-form__btn-text {
+  color: var(--white-color);
+  margin: 0 auto;
+}
+
+.login-form__password-setting {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 1rem 0;
+}
+
+.login-form__password-remember {
+  display: flex;
+  align-items: center;
+}
+
+.login-form__password-checkbox {
+  margin-left: 1rem;
+}
+
+.login-form__password-text,
+.login-form__password-forget-link {
+  font-size: 1.4rem;
+  color: #6c757d;
+}
+
+.login-des {
+  margin-top: 3rem;
+  color: #7b868a;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.login-des-list {
+  list-style-type: disc;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+/* Library Custom Styles */
+
+.swal-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-svg {
+  position: absolute;
+  bottom: 0;
+  z-index: -2;
+}
+/* Library Custom Styles */
+
+.login-form__eye-icon {
+  position: absolute;
+  top: 21px;
+  left: 60px;
+  color: var(--primary-color);
+  cursor: pointer;
+}

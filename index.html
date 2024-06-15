@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>پای لرن | صفحه اصلی</title>
+    <link rel="icon" type="image/x-icon" href="/frontend/images/logo/browser-icon.png">
+    <link
+      rel="stylesheet"
+      href="/frontend/vendor/Bootstrap/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/frontend/vendor/SwiperSlider/swiper.css" />
+    <link rel="stylesheet" href="/frontend/vendor/FontAwesome/all.min.css" />
+    <link rel="stylesheet" href="/frontend/vendor/AOS/aos.css" />
+    <link rel="stylesheet" href="/frontend/css/reset.css" />
+    <link rel="stylesheet" href="/frontend/css/index.css" />
+    <link rel="stylesheet" href="/frontend/css/responsive.css" />
+
+
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="header">
+      <div id="particles-js"></div>
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="main-header_content">
+            <div class="main-header__right">
+              <div class="logo-img-wrapper">
+                <img
+                src="/frontend/images/logo/Logo.png"
+                class="main-header__logo"
+                alt="لوگوی سبزلرن"
+              />
+              </div>
+              
+<div class="sidbar_nav">
+  <div id="sidebar-lable">
+    <label for="toggle_sidbar" class="label_toggle_sidbar">
+           
+    </label>
+  </div>
+  
+  <ul class="main-header__menu" id="menus-wrapper" >
+    <div class="sidebar_search">
+      <input
+        class="sidebar_search-box"
+        type="text"
+        placeholder="جستوجو"
+        id="search-input"
+        
+      />
+      <button class="sidebar_search-btn" id="search-btn"><i class="fas fa-search sidebar_search-icon" id="search-btn"></i></button>
+      
+    </div>
+    <li class="main-header__item">
+      <a href="index.html" class="main-header__link">صفحه اصلی</a>
+      <!-- menu loaded from js -->
+    </li>
+  </ul>
+</div>
+              
+            </div>
+            <div class="main-header_left">
+              <div class="main-header_search">
+                <input
+                  class="main-header_search-box"
+                  type="text"
+                  placeholder="جستوجو"
+                  id="search-input"
+                />
+                <button class="main-header_search-btn" id="search-btn"><i class="fas fa-search main-header_search-icon" id="search-btn"></i></button>
+                
+              </div>
+
+              <a href="" class="main-header_profile">
+                <!-- <span class="main-header_profile-text">مهدی پایکانه</span> -->
+                <!-- elem from js -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start landing -->
+      <section class="landing">
+        <div class="container">
+          <div class="landing__content">
+            <div class="landing__content-right">
+              <h1 class="landing__title"></h1>
+              <div class="landing__status">
+                <div class="col-6 col-md-3 col-lg-6"> 
+                  <div class="landing__status-item">
+                  <img
+                    src="/frontend/images/landing/icons/icons8-video-48.png"
+                    alt=""
+                    width="30"
+                    height="30"
+                  />
+                  <span class="landing__status-item-text"
+                    ><span id="course-count"></span> دوره آموزشی</span
+                  >
+                </div>
+              </div>
+                <div class="col-6 col-md-3 col-lg-6">
+                  <div class="landing__status-item">
+                  <img
+                    src="/frontend/images/landing/icons//icons8-money-48.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                  <span class="landing__status-item-text"
+                    >تضمین بازگشت وجه</span
+                  >
+                </div>
+              </div>
+                <div class="col-6 col-md-3 col-lg-6">
+                  <div class="landing__status-item">
+                  <img
+                    src="/frontend/images/landing/icons/icons8-person-40.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                  <span class="landing__status-item-text"
+                    ><span id="users-count"></span> دانشجو</span
+                  >
+                </div>
+              </div>
+                <div class="col-6 col-md-3 col-lg-6">
+                  <div class="landing__status-item">
+                  <img
+                    src="/frontend/images/landing/icons/icons8-paper-48.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                  <span class="landing__status-item-text"
+                    ><span id="articles-count"></span> مقاله آموزشی</span
+                  >
+                </div>
+              </div>
+              </div>
+              <button class="landing__btn">
+                شروع یادگیری<i class="fas fa-arrow-left landing__btn-icon"></i>
+              </button>
+            </div>
+            <div class="landing__content-left">
+              <img
+                src="/frontend/images/landing/landing.png"
+                alt=""
+                class="landing__img"
+                width="620px"
+                height="550px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Finish landing -->
+    </header>
+    <!-- Finish header -->
+    <!-- Start Latest Courses -->
+    <div class="courses">
+      <div class="container">
+        <div class="courses-header">
+          <div class="courses-header__right">
+            <span class="courses-header__title title">جدیدترین دوره ها</span>
+            <span class="courses-header__text"
+              >سکوی پرتاپ شما به سمت موفقیت</span
+            >
+          </div>
+          <div class="courses-header__left">
+            <a href="allcourses.html?page=1" class="courses-header__link">
+              تمامی دوره ها
+              <i class="fas fa-arrow-left courses-header__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="courses-content">
+          <div class="container">
+            <div class="row" id="courses-container" >
+              <!-- elemnt fron js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Finish Latest Courses -->
+    <!-- Start about us Courses -->
+    <div class="about-us">
+      <div class="container">
+        <div class="about-us__header">
+          <span class="about-us__title title"
+            >چرا باید از پای لرن یاد بگیریم؟
+          </span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card_section">
+                <div class="card_item card_search">
+                    <div class="card_icon">
+                      <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14 15.6672C13.475 15.8812 12.8952 16 12.2857 16C9.91878 16 8 14.2091 8 12C8 9.79086 9.91878 8 12.2857 8C12.8952 8 13.475 8.11876 14 8.33283" stroke="#015bfa" stroke-width="1.5" stroke-linecap="round"></path> <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#015bfa" stroke-width="1.5" stroke-linecap="round"></path> </g></svg> 
+                    </div>
+                    <div class="card_text">
+                        <h5>دوره های اختصاصی</h5>
+                        <p>با پشتیبانی و کیفیت بالا ارائه میده</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card_section">
+                <div class="card_item card_cloud">
+                    <div class="card_icon ">
+                      <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 9.00006L16 5.00006M12 14.5001L15 11.5001M18.5 8.00006L16.875 9.62506M12 19.5001L13.875 17.6251M19.5 12.0001L15.75 15.7501" stroke="#ef5e44" stroke-width="1.5" stroke-linecap="round"></path> <path d="M12 22C16.4183 22 20 18.3541 20 13.8567C20 9.39453 17.4467 4.18759 13.4629 2.32555C12.9986 2.10852 12.4993 2 12 2M12 22C7.58172 22 4 18.3541 4 13.8567C4 12.2707 4.32258 10.5906 4.91731 9M12 22V2M12 2C11.5007 2 11.0014 2.10852 10.5371 2.32555C8.93605 3.07388 7.56606 4.36246 6.5 5.92583" stroke="#ef5e44" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>                    </div>
+                    <div class="card_text">
+                        <h5>هر کسی اجازه تدریس نداره</h5>
+                        <p>چون کیفیت مهمه و هرکسی نمیاد </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card_section">
+                <div class="card_item card_users">
+                    <div class="card_icon">
+
+                      <svg width="50" height="50" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Gem</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Gem"> <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"> </rect> <path d="M3.45593,11.5066 L11.6284,20.5871 C11.827,20.8077 12.173,20.8077 12.3716,20.5871 L20.5441,11.5066 C20.8191,11.201 20.8791,10.7582 20.6952,10.3904 L18.2764,5.55279 C18.107,5.214 17.7607,5 17.382,5 L6.61803,5 C6.23926,5 5.893,5.214 5.72361,5.55279 L3.3048,10.3904 C3.12092,10.7582 3.18088,11.201 3.45593,11.5066 Z" id="Path" stroke="#fdbe29" stroke-width="2" stroke-linecap="round"> </path> <path d="M8.5,8.5 L7.6382,10.2236 C7.5535,10.393 7.57178,10.5957 7.68541,10.7472 L9,12.5" id="Path" stroke="#fdbe29" stroke-width="2" stroke-linecap="round"> </path> </g> </g> </g></svg>
+                    </div>
+                    <div class="card_text">
+                        <h5>دوره های رایگان</h5>
+                        <p>ارئه دوره های باکیفیت رایگان</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card_section">
+                <div class="card_item card_ok">
+                    <div class="card_icon">
+
+                      <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21.8382 11.1263C22.0182 9.2137 22.1082 8.25739 21.781 7.86207C21.604 7.64823 21.3633 7.5172 21.106 7.4946C20.6303 7.45282 20.0329 8.1329 18.8381 9.49307C18.2202 10.1965 17.9113 10.5482 17.5666 10.6027C17.3757 10.6328 17.1811 10.6018 17.0047 10.5131C16.6865 10.3529 16.4743 9.91812 16.0499 9.04851L13.8131 4.46485C13.0112 2.82162 12.6102 2 12 2C11.3898 2 10.9888 2.82162 10.1869 4.46486L7.95007 9.04852C7.5257 9.91812 7.31351 10.3529 6.99526 10.5131C6.81892 10.6018 6.62434 10.6328 6.43337 10.6027C6.08872 10.5482 5.77977 10.1965 5.16187 9.49307C3.96708 8.1329 3.36968 7.45282 2.89399 7.4946C2.63666 7.5172 2.39598 7.64823 2.21899 7.86207C1.8918 8.25739 1.9818 9.2137 2.16181 11.1263L2.391 13.5616C2.76865 17.5742 2.95748 19.5805 4.14009 20.7902C5.32271 22 7.09517 22 10.6401 22H13.3599C16.9048 22 18.6773 22 19.8599 20.7902C20.7738 19.8553 21.0942 18.4447 21.367 16" stroke="#6c3dc4" stroke-width="1.5" stroke-linecap="round"></path> <path d="M9 18H15" stroke="#6c3dc4" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                    </div>
+                    <div class="card_text">
+                        <h5>اهمیت به کاربر</h5>
+                        <p>اولویت اول آخر آکادمی کاربراشه</p>
+                    </div>
+                </div>
+            </div>
+          </div> 
+        </div>
+    </div>
+    </div>
+    <!-- Finish about us Courses -->
+    <!-- Start popular Courses -->
+    <div class="popular">
+      <div class="container">
+        <div class="popular__header">
+          <span class="popular__title title">محبوب ترین دوره ها</span>
+        </div>
+        <div class="popular__slider" >
+          <div class="swiper swiper-container" >
+            <div class="swiper-wrapper" id="popular-courses-wrapper" >
+              <!-- data in js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Finish popular Courses -->
+    <!-- Start article Courses -->
+    <div class="presell">
+      <div class="container">
+        <div class="presell__header">
+          <span class="presell__title title">جدید ترین مقالات</span>
+        </div>
+        <div class="popular__slider">
+          <div class="swiper swiper-container">
+            <div class="swiper-wrapper" id="articles-wrapper">
+              <!-- data loaded from js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Finish pre-sell Courses -->
+    <!-- Start Footer -->
+
+    <footer class="footer">
+      
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="row">
+            <div class="col-6 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title"> درباره ما </span>
+                <p class="footer-widgets__text">
+                  با بیش از 3 سال سابقه در این حوزه، تیم ما از متخصصینی تشکیا
+                  شده است که با استفاده ار روش های جدید و به روز، به دانشجویان
+                  کمک میکنند تا به طور بهتری درک و تسلط بر مفاهیم را کسب کنند.
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title"> دسترسی سریع </span>
+                <div class="footer-widgets__links">
+                  <a href="/frontend/courses.html?name=nodejs-course" class="footer-widgets__link"> آموزش حرفه ای node js </a>
+                  <a href="/frontend/courses.html?name=regex-course" class="footer-widgets__link"> دوره RegEx برای تمامی برنامه نویسان </a>
+                  <a href="/frontend/courses.html?name=js-20-lib" class="footer-widgets__link">
+                    آموزش 20 کتابخانه جاوا اسکریپت
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title" id="with-us"> باما همراه باشید </span>
+                <div class="tooltip_section">
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">facebook</div>
+                     <span>
+                        <i class="fab fa-facebook-f"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">twitter</div>
+                     <span>
+                        <i class="fab fa-twitter"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">instagram</div>
+                     <span>
+                        <i class="fab fa-instagram"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">github</div>
+                     <span>
+                        <i class="fab fa-github"></i>
+                     </span>
+                  </div>
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">youtube</div>
+                     <span>
+                        <i class="fab fa-youtube"></i>
+                     </span>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <span class="footer__copyright-text">
+          کلیه حقوق برای آکادمی آموزش برنامه نویسی پای لرن محفوظ است.
+        </span>
+      </div>
+      
+    </footer>
+
+    <!-- Finish Footer -->
+
+    <script src="/frontend/vendor/FontAwesome/all.min.js"></script>
+    <script src="/frontend/vendor/particle/particles.js"></script>
+    <script src="/frontend/vendor/particle/custom-particle.js"></script>
+    <script src="/frontend/vendor/SwiperSlider/swiper.js"></script>
+    <script src="/frontend/vendor/AOS/aos.js"></script>
+    <script src="/frontend/js/slider.js"></script>
+    <script src="/frontend/js/funcs/shared.js" type="module"></script>
+    <script src="/frontend/js/shared.js" type="module"></script>
+    <script src="/frontend/js/index.js" type="module"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,200 @@
+@import url(/frontend/css/footer.css);
+
+:root {
+    --primary-font: "IranSans";
+    --primary-color: #1a3c6d;
+    --white-color: #fff;
+    --dark-color: #464749;
+}
+/* ============================== Reset Style ============================== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+}
+*,
+*:after,
+*:before {
+    outline: none;
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    transition: all 400ms ease;
+    color: var(--dark-color);
+}
+a:hover {
+    color: #1e83f0;
+}
+i {
+    user-select: none;
+}
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    background-color: #efefef;
+}
+/* ============================== Reset Style ============================== */
+.header {
+    position: relative;
+    box-shadow: 0 0.125rem 0.55rem rgb(0, 0, 0, 0.08);
+}
+/* ============================== Top-Bar Style ============================== */
+
+/* ============================== Top-Bar Style ============================== */
+
+/* ============================== Main-Header Style ============================== */
+
+/* ============================== Main-Header Style ============================== */
+
+/* ============================== Drop-Down Desktop Style ============================== */
+
+/* ============================== Drop-Down Desktop Style ============================== */
+
+/* ============================== Content Header Style ============================== */
+.content-header {
+    border-top: 2px solid #1a3c6d;
+    border-bottom: 2px solid #1a3c6d;
+    padding: 1.7rem 0;
+}
+.content-header__title {
+    display: block;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.content-header__subtitle {
+    font-size: 1.3rem;
+}
+/* ============================== Content Header Style ============================== */
+
+/* ============================== Content Sidebar Style ============================== */
+.content-main {
+    margin: 3rem 0;
+}
+
+.sidebar__name {
+    color: var(--dark-color);
+    font-size: 1.7rem;
+}
+.sidebar__list {
+    margin-top: .7rem;
+}
+.sidebar__link {
+    display: block;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+/* ============================== Content Sidebar Style ============================== */
+
+/* ============================== Content Main Style ============================== */
+.main {
+    border-right: 2px solid #1a3c6d;
+    padding-right: 3rem;
+}
+.main__title-text {
+    font-size: 1.7rem;
+}
+.main__title-name {
+    color: #1a3c6d;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.main__title-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.main__desc {
+    margin: 2.3rem 0 2rem 0;
+}
+.main__link {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+    border: 1px solid #1a3c6d;
+    border-radius: .3rem;
+    margin-bottom: 1.5rem;
+    transition: all 400ms ease;
+}
+.main__link:hover {
+    background-color: #1a3c6d;
+    color: var(--white-color);
+}
+/* ============================== Content Main Style ============================== */
+
+/* ============================== Footer Style ============================== */
+
+/* ============================== Footer Style ============================== */
+
+/* ============================== Helper Class ============================== */
+.title::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.4rem;
+    height: 4.4rem;
+    border-radius: 5rem;
+    background-color: var(--primary-color);
+    transform: rotate(8deg);
+}
+.title::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 60%;
+    background-color: rgba(43, 206, 86, 0.2);
+}
+.title {
+    font-size: 2.3rem;
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+}
+/* ============================== Helper Class ============================== */
+
+/* ============================== Slider Style ============================== */
+.swiper-container {
+    height: 36rem;
+    cursor: grab;
+    overflow: hidden;
+}
+.swiper-pagination {
+    position: absolute;
+    bottom: -4rem !important;
+}
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    transition: all 400ms ease;
+    opacity: 1 !important;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+    transition: all 400ms ease;
+    opacity: 1 !important;
+    width: 35px !important;
+    border-radius: 10px;
+}
+/* ============================== Slider Style ============================== */
+
+@media screen and (max-width:576px){
+    .main__desc{
+        font-size: 1.2rem;
+    }
+    .main__title-text{
+        font-size: 1.3rem;
+    }
+    .main__title-name{
+        font-size: 1.4rem;
+    }
+    .main__link{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,130 @@
+/*  Start landing */
+
+.landing__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.landing__img {
+  background-size: cover;
+}
+.landing__title {
+  font-family: "Ray-Black";
+  font-size: 5rem;
+  font-weight: bolder;
+  color: var(--primary-color);
+  margin: 0 80px 25px 0;
+}
+.landing__title span {
+  color: var(--secondary-color);
+}
+.landing__status {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.landing__status-item {
+  flex-basis: 27%;
+  margin: 16px 88px 0 0;
+  display: flex;
+  align-items: center;
+}
+.landing__status-item-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.landing__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  margin: 7rem 9.8rem 0 0;
+  padding: 1rem 2.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.landing__btn-icon {
+  padding-right: 10px;
+}
+
+
+@media screen and (max-width:1400px){
+  .landing__title{
+    margin-right: 0;
+  }
+  .landing__status-item{
+    margin-right: 0;
+  }
+  .landing__btn{
+    margin-right: 0;
+  }
+  
+}
+
+@media screen  and (max-width:1200px){
+  .landing__img{
+    width: 500px;
+    height: 480px;
+  }
+  .landing__title {
+    font-size: 4.4rem;
+  }
+  
+}
+@media screen and (max-width:992px){
+  .landing__content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .landing__content-right{
+    margin-right: 18px;
+  }
+  .landing__status-item{
+    margin-right: 16px;
+  }
+  .landing__img{
+    width: 580px;
+    height: 520px;
+  }
+  .landing__title{
+    margin-right: 5rem;
+    font-size: 5rem;
+  }
+  .landing__btn{
+    display: none;
+  }
+}
+@media screen and (max-width:768px){
+  .landing__title {
+    font-size: 4.4rem;
+  }
+  .landing__title{
+    margin-right: 0;
+  }
+  .landing__img{
+    width: 480px;
+    height: 460px;
+  }
+}
+
+@media screen and (max-width:576px) {
+
+  .landing__title {
+    font-size: 3.35rem;
+  }
+  .landing__img{
+    width: 350px;
+    height: 310px;
+  }
+  .landing__status-item-text{
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.popular {
+  margin: 6rem 0;
+}
+.swiper-slide .course-box__title {
+  margin: -10px 0 5px 0;
+  padding: 0;
+}
+.swiper-slide .course-box__status {
+  justify-content: end;
+}
+.popular__slider .course-box {
+  margin-left: 1.3rem;
+}
+.popular__slider .course-box__img {
+  width: 95%;
+}
+.popular__slider .course-box:hover {
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
+.swiper-wrapper {
+  cursor: pointer;
+}
+.popular__slider {
+  margin-top: 2rem;
+}

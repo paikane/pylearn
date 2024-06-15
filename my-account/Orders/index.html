@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="/frontend/vendor/Bootstrap/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../Account/css/responsive.css">
+
+
+</head>
+
+<body>
+    <!--------------------------------  Header  -------------------------------->
+    
+    <!--------------------------------  Header  -------------------------------->
+
+    <!--------------------------------  Content-Section  -------------------------------->
+    <section class="content mt-5">
+        <div class="content-header">
+            <div class="container">
+                <span class="content-header__title">حساب کاربری من</span>
+                <span class="content-header__subtitle">پیشخوان</span>
+            </div>
+        </div>
+        <div class="content-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="sidebar">
+                            <span class="sidebar__name">سعیدی راد</span>
+                            <ul class="sidebar__list">
+                              <li class="sidebar__item">
+                                <a class="sidebar__link" href="../../index.html">خانه</a>
+                            </li>
+                              <li class="sidebar__item">
+                                <a class="sidebar__link" href="../Account/index.html">پیشخوان</a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="../Orders/index.html">سفارش</a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="../Edit/index.html">جزئیات حساب کاربری</a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="../Buyed/index.html">دوره های خریداری شده</a>
+                            </li>
+                            <li class="sidebar__item" id="logout-user">
+                                <a class="sidebar__link" href="#">خروج از سیستم</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="order">
+                            <table class="order__table">
+                                <thead class="order__table-header">
+                                    <tr class="order__table-header-list">
+                                        <th class="order__table-header-item">سفارش</th>
+                                        <th class="order__table-header-item">تاریخ</th>
+                                        <th class="order__table-header-item">مبلغ</th>
+                                        <th class="order__table-header-item">جزئیات</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody class="order__table-body">
+                                        <!-- data loaded form js -->
+                                </tbody>
+                            </table>
+                            <a class="order__btn" href="#">بعدی</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------  Content-Section  -------------------------------->
+
+    <!--------------------------------  Footer-Section  -------------------------------->
+    <footer class="footer">
+      
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="row">
+            <div class="col-6 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title"> درباره ما </span>
+                <p class="footer-widgets__text">
+                  با بیش از 3 سال سابقه در این حوزه، تیم ما از متخصصینی تشکیا
+                  شده است که با استفاده ار روش های جدید و به روز، به دانشجویان
+                  کمک میکنند تا به طور بهتری درک و تسلط بر مفاهیم را کسب کنند.
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title"> دسترسی سریع </span>
+                <div class="footer-widgets__links">
+                  <a href="/frontend/courses.html?name=nodejs-course" class="footer-widgets__link"> آموزش حرفه ای node js </a>
+                  <a href="/frontend/courses.html?name=regex-course" class="footer-widgets__link"> دوره RegEx برای تمامی برنامه نویسان </a>
+                  <a href="/frontend/courses.html?name=js-20-lib" class="footer-widgets__link">
+                    آموزش 20 کتابخانه جاوا اسکریپت
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4">
+              <div class="footer-widgets__item">
+                <span class="footer-widgets__title" id="with-us"> باما همراه باشید </span>
+                <div class="tooltip_section">
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">facebook</div>
+                     <span>
+                        <i class="fab fa-facebook-f"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">twitter</div>
+                     <span>
+                        <i class="fab fa-twitter"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">instagram</div>
+                     <span>
+                        <i class="fab fa-instagram"></i>
+                     </span>
+                  </div>
+            
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">github</div>
+                     <span>
+                        <i class="fab fa-github"></i>
+                     </span>
+                  </div>
+                  <div class="tooltip_item">
+                     <div class="tooltip_text">youtube</div>
+                     <span>
+                        <i class="fab fa-youtube"></i>
+                     </span>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <span class="footer__copyright-text">
+          کلیه حقوق برای آکادمی آموزش برنامه نویسی پای لرن محفوظ است.
+        </span>
+      </div>
+      
+    </footer>
+    <!--------------------------------  Footer-Section  -------------------------------->
+
+    <script src="vendor/FontAwesome5/font_awesome.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../js/account/shared.js" type="module"></script>
+    <script src="../../js/account/orders.js" type="module"></script>
+
+</body>
+
+</html>

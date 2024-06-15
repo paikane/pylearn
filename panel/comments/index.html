@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel | Comments</title>
+    <link rel="icon" type="image/x-icon" href="/frontend/images/logo/browser-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="vendor/BootStrap/Bootstrap5.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="sidebar" class="col-2">
+        <div class="sidebar-header">
+          <div class="sidebar-logo">
+            <a href="#"><img src="/frontend/images/logo/panel Logo.png" alt="Logo"></a>
+          </div>
+
+          <div class="sidebar-menu-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="sidebar-menu">
+          <ul>
+            <li><a class="sidebar-menu__items" href="../main/index.html"><span>صفحه اصلی</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../courses/index.html"><span>دوره ها</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../menu/index.html"><span>منو ها</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../users/index.html"><span>کاربران</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../categories/index.html"><span>دسته‌بندی‌ ها</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../sessions/index.html"><span>جلسات</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../articles/index.html"><span>مقاله ها</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../comments/index.html"><span>کامنت ها</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../discounts/index.html"><span>کد های تخفیف</span></a></li>
+                    <li><a class="sidebar-menu__items" href="../campaign/index.html"><span>کمپین</span></a></li>
+                    <li id="logout-btn"><a href="#"><span>خروج</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="home" class="col-10">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="home-header">
+              <div class="home-right">
+                <div class="home-searchbar">
+                  <input
+                    type="text"
+                    class="search-bar"
+                    placeholder="جستجو..."
+                  />
+                </div>
+                <div class="home-notification">
+                  <button type="button" id="notifications-icon">
+                    <i class="far fa-bell"></i>
+                  </button>
+                </div>
+                <div class="home-notification-modal">
+                  <ul class="home-notification-modal-list">
+                    <!-- loaded from js -->
+                  </ul>
+                </div>
+               
+              </div>
+              <div class="home-left">
+                <div class="home-profile">
+                  <div class="home-profile-image">
+                    <a href="#">
+                      <img src="img/profile.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="home-profile-name">
+                    <a href="#" id="admin-name"></a>
+                  </div>
+                  <div class="home-profile-icon">
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" id="home-content">
+
+          <div class="container">
+            <div class="home-content-latset-users">
+              <div class="home-content-users-title">
+                <span>لیست <span class="signup">کامنت‌ها</span></span>
+              </div>
+              <div class="home-content-users-table">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>شماره</th>
+                      <th>ارسال کننده</th>
+                      <th>دوره</th>
+                      <th>تاریخ ثبت</th>
+                      <th>امتیاز</th>
+                      <th>مشاهده</th>
+                      <th>پاسخ</th>
+                      <th>تایید</th>
+                      <th>رد</th>
+                      <th>حذف</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Contact Data Loaded From JS -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../js/panel/comments.js" type="module"></script>
+    <script src="../../js/panel/shared.js" type="module"></script>
+
+  </body>
+</html>

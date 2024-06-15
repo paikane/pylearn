@@ -1,0 +1,11 @@
+@import url(/frontend/css/fonts.css);
+@import url(/frontend/css/variables.css);
+@import url(/frontend/css/header.css);
+@import url(/frontend/css/footer.css);
+@import url(/frontend/css/deault.css);
+@import url(/frontend/css/helpers.css);
+@import url(/frontend/css/courses-wrapper.css);
+@import url(/frontend/css/presell.css);
+.main-header_search-btn{
+    background-color: transparent;
+  }

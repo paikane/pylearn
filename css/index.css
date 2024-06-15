@@ -1,0 +1,31 @@
+@import url(/frontend/css/fonts.css);
+@import url(/frontend/css/variables.css);
+@import url(/frontend/css/top-bar.css);
+@import url(/frontend/css/header.css);
+@import url(/frontend/css/landing.css);
+@import url(/frontend/css/courses-wrapper.css);
+@import url(/frontend/css/aboutus.css);
+@import url(/frontend/css/popular.css);
+@import url(/frontend/css/presell.css);
+@import url(/frontend/css/footer.css);
+@import url(/frontend/css/deault.css);
+@import url(/frontend/css/helpers.css);
+
+
+
+
+
+.header {
+  position: relative;
+}
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  z-index: -5;
+}
+.main-header_search-btn{
+  background-color: transparent;
+}

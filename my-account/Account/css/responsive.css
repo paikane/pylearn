@@ -1,0 +1,25 @@
+@media screen and (max-width:768px){
+    .sidebar__link{
+        font-size: 1.1rem;
+    }
+    .sidebar__name{
+        font-size: 1.2rem;
+    }
+    .content-header__title{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .sidebar__link{
+        font-size: 0.8rem;
+    }
+    .sidebar__name{
+        font-size: 0.9rem;
+    }
+    .content-header__title{
+        font-size: 1.5rem;
+    }
+
+}
